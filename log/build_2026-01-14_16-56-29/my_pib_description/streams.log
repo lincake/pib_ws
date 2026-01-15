@@ -1,0 +1,42 @@
+[0.009s] Invoking command in '/home/lens/pib_ws/build/my_pib_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lens/pib_ws/src/my_pib_description -DCMAKE_INSTALL_PREFIX=/home/lens/pib_ws/install/my_pib_description
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.088s] -- The CXX compiler identification is GNU 11.4.0
+[0.093s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.155s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.155s] -- Detecting C compile features
+[0.155s] -- Detecting C compile features - done
+[0.157s] -- Detecting CXX compiler ABI info
+[0.216s] -- Detecting CXX compiler ABI info - done
+[0.221s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.221s] -- Detecting CXX compile features
+[0.221s] -- Detecting CXX compile features - done
+[0.223s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.339s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.437s] -- Configuring done
+[0.438s] -- Generating done
+[0.439s] -- Build files have been written to: /home/lens/pib_ws/build/my_pib_description
+[0.442s] Invoked command in '/home/lens/pib_ws/build/my_pib_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lens/pib_ws/src/my_pib_description -DCMAKE_INSTALL_PREFIX=/home/lens/pib_ws/install/my_pib_description
+[0.445s] Invoking command in '/home/lens/pib_ws/build/my_pib_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lens/pib_ws/build/my_pib_description -- -j18 -l18
+[0.479s] Invoked command in '/home/lens/pib_ws/build/my_pib_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lens/pib_ws/build/my_pib_description -- -j18 -l18
+[0.488s] Invoking command in '/home/lens/pib_ws/build/my_pib_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lens/pib_ws/build/my_pib_description
+[0.495s] -- Install configuration: ""
+[0.495s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/launch
+[0.495s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/rviz
+[0.495s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/urdf
+[0.495s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/ament_index/resource_index/package_run_dependencies/my_pib_description
+[0.495s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/ament_index/resource_index/parent_prefix_path/my_pib_description
+[0.495s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/environment/ament_prefix_path.sh
+[0.495s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/environment/ament_prefix_path.dsv
+[0.496s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/environment/path.sh
+[0.496s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/environment/path.dsv
+[0.496s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/local_setup.bash
+[0.496s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/local_setup.sh
+[0.496s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/local_setup.zsh
+[0.496s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/local_setup.dsv
+[0.496s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/package.dsv
+[0.496s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/ament_index/resource_index/packages/my_pib_description
+[0.496s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/cmake/my_pib_descriptionConfig.cmake
+[0.496s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/cmake/my_pib_descriptionConfig-version.cmake
+[0.497s] -- Installing: /home/lens/pib_ws/install/my_pib_description/share/my_pib_description/package.xml
+[0.498s] Invoked command in '/home/lens/pib_ws/build/my_pib_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lens/pib_ws/build/my_pib_description
