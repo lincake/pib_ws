@@ -1,0 +1,30 @@
+# VSCode
+.vscode/browse.vc.db*
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+
+# Build and Install directories (ROS/colcon)
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
