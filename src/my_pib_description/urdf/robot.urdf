@@ -12,7 +12,7 @@
     <visual>
       <origin xyz="-0.013132987582171207555 0.012566156500572068372 0.89118743593020444127" rpy="0 -0 0" />
       <geometry>
-        <mesh filename="package://my_pib_description/meshes/urdf_body.stl"/>
+        <mesh filename="package://my_pib_description/meshes/urdf_body1.stl"/>
       </geometry>
       <material name="urdf_body_material">
         <color rgba="0.90196078431372550543 0.90196078431372550543 0.90196078431372550543 1.0"/>
@@ -21,7 +21,7 @@
     <collision>
       <origin xyz="-0.013132987582171207555 0.012566156500572068372 0.89118743593020444127" rpy="0 -0 0" />
       <geometry>
-        <mesh filename="package://my_pib_description/meshes/urdf_body.stl"/>
+        <mesh filename="package://my_pib_description/meshes/urdf_body1.stl"/>
       </geometry>
     </collision>
     <inertial>
@@ -255,5 +255,12 @@
     <joint_properties friction="0.0"/>
   </joint>
 
+  <link name="tool_link"/>
+
+  <joint name="tool_joint" type="fixed">
+    <parent link="urdf_forearm_2"/>
+    <child link="tool_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
 
 </robot>
