@@ -76,37 +76,7 @@
 </inertial>
 </link>
 
-<link name="urdf_camera_link">
-<visual>
-<origin xyz="-0.00024999999999998807898 0.10823202427590994379 0.09539999999999999869" rpy="1.570796326794896558 2.7161820220443780355e-20 0" />
-<geometry>
-<mesh filename="package://my_pib_description/meshes/urdf_camera_link.stl"/>
-</geometry>
-<material name="urdf_camera_link_material">
-<color rgba="0 0 0 1.0"/>
-</material>
-</visual>
-<collision>
-<origin xyz="-0.00024999999999998807898 0.10823202427590994379 0.09539999999999999869" rpy="1.570796326794896558 2.7161820220443780355e-20 0" />
-<geometry>
-<mesh filename="package://my_pib_description/meshes/urdf_camera_link.stl"/>
-</geometry>
-</collision>
-<inertial>
-<origin xyz="2.4053025196590915868e-16 4.1633363423443370266e-17 -0.0015000000000000152101" rpy="0 0 0"/>
-<mass value="0.011584290081750131529" />
-<inertia ixx="3.233128653290471716e-07" ixy="0"  ixz="-3.1009920596281262703e-24" iyy="6.4039677650293876714e-06" iyz="0" izz="6.7099041952358088781e-06" />
-</inertial>
-</link>
 
-<joint name="camera" type="fixed">
-<origin xyz="-0.04740000000000000463 0.0012679757240900979554 -0.04199999999999999567" rpy="2.4502643717466608141e-31 1.570796326794896558 0" />
-<parent link="urdf_head" />
-<child link="urdf_camera_link" />
-<axis xyz="0 0 1"/>
-<limit effort="1" velocity="20" />
-<joint_properties friction="0.0"/>
-</joint>
 
 <joint name="head_vertical" type="revolute">
 <origin xyz="-0.041250000000000008882 0.048000000000000021816 -0.012899999999999911537" rpy="1.570796326794896558 -2.7286008646779410258e-19 -1.5707963267948970021" />
