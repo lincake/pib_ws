@@ -1,0 +1,10 @@
+# Default initial positions for pib's ros2_control fake system
+
+initial_positions:
+  elbow_right: 0
+  forearm_right: 0
+  head_horizontal: 0
+  head_vertical: 0
+  shoulder_horizontal_right: 0
+  shoulder_vertical_right: 0
+  upper_arm_right: 0

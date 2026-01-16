@@ -1,0 +1,23 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: my_pib_description
+    relative_path: urdf/robot.urdf
+  srdf:
+    relative_path: config/pib.srdf
+  package_settings:
+    author_name: lin
+    author_email: lin@lin.com
+    generated_timestamp: 1768552466
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
