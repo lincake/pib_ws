@@ -1,6 +1,0 @@
-Invoking command in '/home/lens/pib_ws/build/my_pib_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lens/pib_ws/src/my_pib_description -DCMAKE_INSTALL_PREFIX=/home/lens/pib_ws/install/my_pib_description
-Invoked command in '/home/lens/pib_ws/build/my_pib_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lens/pib_ws/src/my_pib_description -DCMAKE_INSTALL_PREFIX=/home/lens/pib_ws/install/my_pib_description
-Invoking command in '/home/lens/pib_ws/build/my_pib_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lens/pib_ws/build/my_pib_description -- -j18 -l18
-Invoked command in '/home/lens/pib_ws/build/my_pib_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lens/pib_ws/build/my_pib_description -- -j18 -l18
-Invoking command in '/home/lens/pib_ws/build/my_pib_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lens/pib_ws/build/my_pib_description
-Invoked command in '/home/lens/pib_ws/build/my_pib_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lens/pib_ws/build/my_pib_description
