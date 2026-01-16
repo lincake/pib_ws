@@ -4,7 +4,7 @@
 <joint name="base_link_to_base" type="fixed">
 <parent link="base_link"/>
 <child link="urdf_body" />
-<origin rpy="0.0 0 0" xyz="0 0 0"/>
+<origin rpy="0.0 0 0" xyz="0 0 -0.35"/>
 </joint>
 <link name="urdf_body">
 <visual>
