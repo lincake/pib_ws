@@ -3,14 +3,14 @@ controller_manager:
   ros__parameters:
     update_rate: 100  # Hz
 
-    right_arm_controller:
+    pib_arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
-right_arm_controller:
+pib_arm_controller:
   ros__parameters:
     joints:
       - head_horizontal
