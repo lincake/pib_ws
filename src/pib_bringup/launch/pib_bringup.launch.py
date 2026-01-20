@@ -43,7 +43,7 @@ def generate_launch_description():
     right_arm_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["right_arm_controller", "--controller-manager", "/controller_manager"],
+        arguments=["pib_arm_controller", "--controller-manager", "/controller_manager"],
     )
 
     # 4. ros2 launch my_robot_moveit_config move_group.launch.py

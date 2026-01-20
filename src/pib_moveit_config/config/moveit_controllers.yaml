@@ -11,8 +11,6 @@ moveit_simple_controller_manager:
     type: FollowJointTrajectory
     default: true
     joints:
-      - head_horizontal
-      - head_vertical
       - shoulder_vertical_right
       - shoulder_horizontal_right
       - upper_arm_right
